@@ -1,0 +1,8 @@
+com\reto\demo\Reto\entities\Cliente.class
+com\reto\demo\Reto\DemoRetoApplication.class
+com\reto\demo\Reto\SwaggerConfig.class
+com\reto\demo\Reto\controllers\ClienteController.class
+com\reto\demo\Reto\model\ClienteModelo.class
+com\reto\demo\Reto\services\ClienteService.class
+com\reto\demo\Reto\repositories\ClienteRepository.class
+com\reto\demo\Reto\services\ClienteServiceImpl.class
