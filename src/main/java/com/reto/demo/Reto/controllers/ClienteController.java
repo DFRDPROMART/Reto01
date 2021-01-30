@@ -16,7 +16,7 @@ import com.reto.demo.Reto.services.ClienteService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-@Api(value = "Microservicio Cliente", description = "Este API contiene métodos del cliente")
+@Api(value = "Cliente", description = "API métodos del cliente")
 @RestController
 @RequestMapping("cliente")
 public class ClienteController {
@@ -32,7 +32,7 @@ public class ClienteController {
 	}
 	
 	
-	@ApiOperation(value = "/listclientes", notes = "Datos del cliente y posible fecha de fallecimiento")
+	@ApiOperation(value = "/listclientes", notes = "Datos del cliente")
 	@GetMapping("/listclientes")
 	public List<ClienteModelo> listadoCliente(){
 		
